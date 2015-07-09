@@ -1,0 +1,22 @@
+{
+  "name": "refreshing",
+  "version": "1.0.0",
+  "description": "Financial goal tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elsporko/refreshing.git"
+  },
+  "author": "John Spooner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsporko/refreshing/issues"
+  },
+  "homepage": "https://github.com/elsporko/refreshing#readme",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}

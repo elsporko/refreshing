@@ -1,0 +1,15 @@
+extends layout
+
+block content
+
+  h1 Add Goal
+
+  form(method='post' action='index')
+    p Goal date
+    input(type='text' name='goalDate')
+
+    p Goal Amount
+    input(type='text' name='goalAmount')
+
+    p Current saved
+    input(type='submit' value='Save Goal')
