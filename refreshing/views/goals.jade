@@ -4,9 +4,15 @@ block content
   h1 Add Goal
 
   form(method='post' action='/')
+    p Account
+    input(type='select' name='goalAccount')
+
     p Goal name
     input(type='text' name='goalName')
     
+    p Goal code
+    input(type='text' name='goalCode')
+
     p Goal date
     input(type='text' name='goalDate')
 

@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var goals = require('./routes/goals');
+var accounts = require('./routes/accounts');
 
 var app = express();
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 app.use('/goals', goals);
+app.use('/accounts', accounts);
 
 var server = app.listen(3000, function () {
 

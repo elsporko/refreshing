@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1 Add Account
+
+  form(method='post' action='/')
+    p Account name
+    input(type='text' name='accountName')
+    
+    p Account code
+    input(type='text' name='accountCode')
+
+    p Current saved
+    input(type='submit' value='Save Account')
